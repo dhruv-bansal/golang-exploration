@@ -6,17 +6,18 @@ func main() {
 
 	// explicit declaration
 	var i int
-	i = 32 // explicit initilization
+	i = 32 // explicit initialization
 	fmt.Println(i)
 
-	// explicit declaration and initilization
+	// explicit declaration and initialization
 	var f float32 = 3.14
 	fmt.Println(f)
 
-	// implicit declaration with initilization
+	// implicit declaration with initialization
 	title := "go data types"
 	fmt.Println("Title", title)
 
+	// implicit declaration of Boolean
 	b := false
 	fmt.Println("Boolean", b)
 
