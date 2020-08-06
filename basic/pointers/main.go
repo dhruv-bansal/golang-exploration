@@ -9,9 +9,9 @@ func main() {
 	// default value of point is nil
 	fmt.Println(name)
 
-	// assign value by dereferencing the value
+	// assign value by de-referencing the value
 	*name = "Arthur"
-	fmt.Println(name) // prints address
+	fmt.Println(name)  // prints address
 	fmt.Println(*name) // prints value
 
 	var someint int = 10
@@ -25,4 +25,3 @@ func main() {
 	fmt.Println(someint, someintPtr) // value changes but address doesn't
 
 }
-
